@@ -9,106 +9,84 @@ var taskTime= function (){
     var time = currentDay.getHours();
     console.log(time);
     if (time === 9) {
-        $("textarea.nineAMBlock").addClass("present")
+        $("input.nineAMBlock").addClass("present")
         console.log('red')
     }else if(time >= 9 ){
-        $("textarea.nineAMBlock").addClass("past")
+        $("input.nineAMBlock").addClass("past")
     }else{
-        $("textarea.nineAMBlock").addClass("future")
+        $("input.nineAMBlock").addClass("future")
     }
 
     if (time === 10) {
-        $("textarea.tenAMBlock").addClass("present")
+        $("input.tenAMBlock").addClass("present")
         console.log('red')
     }else if(time >= 10){
-        $("textarea.tenAMBlock").addClass("past")
+        $("input.tenAMBlock").addClass("past")
     }else{
-        $("textarea.tenAMBlock").addClass("future")
+        $("input.tenAMBlock").addClass("future")
     }
 
     if (time === 11) {
-        $("textarea.elevAMBlock").addClass("present")
+        $("input.elevAMBlock").addClass("present")
         console.log('red')
     }else if(time >= 11){
-        $("textarea.elevAMBlock").addClass("past")
+        $("input.elevAMBlock").addClass("past")
     }else{
-        $("textarea.elevAMBlock").addClass("future")
+        $("input.elevAMBlock").addClass("future")
     }
 
     if (time === 12) {
-        $("textarea.twelPMBlock").addClass("present")
+        $("input.twelPMBlock").addClass("present")
         console.log('red')
     }else if(time >= 12){
-        $("textarea.twelPMBlock").addClass("past")
+        $("input.twelPMBlock").addClass("past")
     }else{
-        $("textarea.twelPMBlock").addClass("future")
+        $("input.twelPMBlock").addClass("future")
     }
 
     if (time === 13) {
-        $("textarea.onePMblock").addClass("present")
+        $("input.onePMblock").addClass("present")
         console.log('red')
     }else if(time >= 13 ){
-        $("textarea.onePMblock").addClass("past")
+        $("input.onePMblock").addClass("past")
     }else{
-        $("textarea.onePMblock").addClass("future")
+        $("input.onePMblock").addClass("future")
     }
 
     if (time === 14) {
-        $("textarea.twoPMBlock").addClass("present")
+        $("input.twoPMBlock").addClass("present")
         console.log('red')
     }else if(time >= 14 ){
-        $("textarea.twoPMBlock").addClass("past")
+        $("input.twoPMBlock").addClass("past")
     }else{
-        $("textarea.twoPMBlock").addClass("future")
+        $("input.twoPMBlock").addClass("future")
     }
 
     if (time === 15) {
-        $("textarea.threePMBlock").addClass("present")
+        $("input.threePMBlock").addClass("present")
         console.log('red')
     }else if(time >= 15 ){
-        $("textarea.threePMBlock").addClass("past")
+        $("input.threePMBlock").addClass("past")
     }else{
-        $("textarea.threePMBlock").addClass("future")
+        $("input.threePMBlock").addClass("future")
     }
 
     if (time === 16) {
-        $("textarea.fourPMBlock").addClass("present")
+        $("input.fourPMBlock").addClass("present")
         console.log('red')
     }else if(time >= 16 ){
-        $("textarea.fourPMBlock").addClass("past")
+        $("input.fourPMBlock").addClass("past")
     }else{
-        $("textarea.fourPMBlock").addClass("future")
+        $("input.fourPMBlock").addClass("future")
     }
 
     if (time === 17) {
-        $("textarea.fivePMBlock").addClass("present")
+        $("input.fivePMBlock").addClass("present")
         console.log('red')
     }else if(time >= 17){
-        $("textarea.fivePMBlock").addClass("past")
+        $("input.fivePMBlock").addClass("past")
     }else{
-        $("textarea.fivePMBlock").addClass("future")
+        $("input.fivePMBlock").addClass("future")
     }
 } 
     taskTime();
-
-
-
-
-
-
-
-
-
-
-
-    // var taskTime= function (){
-    //     var time = currentDay.getHours();
-    //     console.log(time);
-    //     if (time === 10) {
-    //         console.log('red')
-    //     }else if(time >= 10 ){
-    //         console.log('grey')
-    //     }else{
-    //         console.log('green')
-    //     }
-    
