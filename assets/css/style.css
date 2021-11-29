@@ -1,18 +1,13 @@
+
+/* start general formating of body contents start */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
+/* end general formating of body contents  end */
 
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
+/* start formatting of main title of page and currentDay start */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -20,11 +15,13 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+/* end formatting of main title of page and currentDay end */
 
-.description{
-  white-space: pre-wrap;
-}
 
+/* start formatting  divds 9AM to 5PM general start */
+
+
+/* start formatting schedule blocks  start */
 .time-block{
   text-align: center;
   border-radius: 15px;
@@ -42,6 +39,43 @@ textarea{
   border-top: 1px dashed #000000;
 }
 
+input {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+/* end formatting schedule blocks  end */
+
+
+/* start formatting schedule blocks button start */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+ 
+}
+/* end formatting schedule blocks button end */
+
+
+/* end formatting divds 9AM to 5PM general end */
+
+
+/* start time logic formating to 9AM to 5PM input area start */
+/* driven by plannerLogic.js */
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -56,17 +90,8 @@ textarea{
   background-color: #77dd77;
   color: rgb(7, 7, 7);
 }
+/* end time logic formating to 9AM to 5PM input area end */
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
+/* END */
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
- 
-}
+
